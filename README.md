@@ -9,16 +9,20 @@
 
 ## API description
 
-### /notion/page/:pageId
-
-Get recordMap from Notion docs.
-
+### `GET` /notion/page/:pageId
 response: { pageId: string, recordMap: object }
+
+- Get recordMap from Notion docs.
+- recordMap is data for react-notion-x NotionRenderer.
+
 
 
 ## Command
 
 `$ npm start`: Local server start
+
+
+
 
 ## Deploy AWS Lambda
 
