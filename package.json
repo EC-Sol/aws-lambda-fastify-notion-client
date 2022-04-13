@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "aws-lambda-fastify": "^2.1.2",
+    "es-main": "^1.0.2",
+    "fastify": "^3.28.0",
+    "notion-client": "^6.10.0"
+  }
+}
